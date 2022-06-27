@@ -3878,6 +3878,14 @@ textarea.form-control.is-invalid {
   left: 600px;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
+.top-6 {
+  top: 30px;
+}
+
 .float-left {
   float: left;
 }
@@ -3923,6 +3931,18 @@ textarea.form-control.is-invalid {
   margin-top: 32px;
 }
 
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mt-9 {
+  margin-top: 64px;
+}
+
 .block {
   display: block;
 }
@@ -3959,6 +3979,10 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
+.h-16 {
+  height: 600px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -3981,6 +4005,30 @@ textarea.form-control.is-invalid {
 
 .w-4\/5 {
   width: 80%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-1 {
+  width: 8px;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-15 {
+  width: 400px;
+}
+
+.w-2\/4 {
+  width: 50%;
 }
 
 .max-w-7xl {
