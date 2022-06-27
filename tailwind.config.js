@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
   theme: {
     screens: {
       sm: "480px",
@@ -19,15 +22,18 @@ module.exports = {
       8: "48px",
       9: "64px",
       10: "80px",
-      11: "200px",
-      12: "400px",
-      13: "600px",
-      14: "800px",
+      11: "120px",
+      14: "200px",
+      15: "400px",
+      16: "600px",
+      17: "800px",
     },
     colors: {
       brown: "#78635c",
       yellow: "#dfb63b",
       white: "#fff",
+      beige: "#f8f3ee",
+      green: "#bfc974",
     },
     extend: {},
     backgroundImage: {
@@ -38,5 +44,5 @@ module.exports = {
       "1/1": "1 / 1",
     },
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin")],
 };
