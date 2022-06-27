@@ -3979,36 +3979,8 @@ textarea.form-control.is-invalid {
   width: 100%;
 }
 
-.w-15 {
-  width: 400px;
-}
-
-.w-18 {
-  width: 500px;
-}
-
-.w-17 {
-  width: 800px;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
-}
-
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-4\/5 {
   width: 80%;
-}
-
-.max-w-xl {
-  max-width: 36rem;
 }
 
 .max-w-7xl {
@@ -4051,37 +4023,9 @@ textarea.form-control.is-invalid {
   justify-content: space-evenly;
 }
 
-.gap-5 {
-  gap: 24px;
-}
-
-.gap-6 {
-  gap: 30px;
-}
-
-.gap-x-6 {
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-}
-
-.gap-x-9 {
-  -moz-column-gap: 64px;
-       column-gap: 64px;
-}
-
 .gap-x-7 {
   -moz-column-gap: 32px;
        column-gap: 32px;
-}
-
-.gap-x-5 {
-  -moz-column-gap: 24px;
-       column-gap: 24px;
-}
-
-.gap-x-4 {
-  -moz-column-gap: 20px;
-       column-gap: 20px;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
