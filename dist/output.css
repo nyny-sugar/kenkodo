@@ -3878,14 +3878,6 @@ textarea.form-control.is-invalid {
   left: 600px;
 }
 
-.top-1\/2 {
-  top: 50%;
-}
-
-.top-6 {
-  top: 30px;
-}
-
 .float-left {
   float: left;
 }
@@ -3935,14 +3927,6 @@ textarea.form-control.is-invalid {
   margin-bottom: 20px;
 }
 
-.mb-1 {
-  margin-bottom: 8px;
-}
-
-.mt-9 {
-  margin-top: 64px;
-}
-
 .block {
   display: block;
 }
@@ -3979,10 +3963,6 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
-.h-16 {
-  height: 600px;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -4007,28 +3987,24 @@ textarea.form-control.is-invalid {
   width: 80%;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-1 {
-  width: 8px;
-}
-
-.w-1\/2 {
+.w-2\/4 {
   width: 50%;
-}
-
-.w-3\/4 {
-  width: 75%;
 }
 
 .w-15 {
   width: 400px;
 }
 
-.w-2\/4 {
-  width: 50%;
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-4\/12 {
+  width: 33.333333%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .max-w-7xl {
@@ -4147,6 +4123,10 @@ textarea.form-control.is-invalid {
   padding: 48px;
 }
 
+.p-2 {
+  padding: 12px;
+}
+
 .px-4 {
   padding-left: 20px;
   padding-right: 20px;
@@ -4160,6 +4140,21 @@ textarea.form-control.is-invalid {
 .py-10 {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.px-8 {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.py-8 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.px-7 {
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .pb-11 {
