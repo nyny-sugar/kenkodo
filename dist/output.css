@@ -3947,6 +3947,18 @@ textarea.form-control.is-invalid {
   margin-top: 8px;
 }
 
+.mr-2 {
+  margin-right: 12px;
+}
+
+.mr-3 {
+  margin-right: 16px;
+}
+
+.mr-5 {
+  margin-right: 24px;
+}
+
 .block {
   display: block;
 }
