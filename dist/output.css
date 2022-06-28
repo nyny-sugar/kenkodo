@@ -3927,6 +3927,26 @@ textarea.form-control.is-invalid {
   margin-bottom: 20px;
 }
 
+.mt-5 {
+  margin-top: 24px;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 16px;
+}
+
+.mt-2 {
+  margin-top: 12px;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
 .block {
   display: block;
 }
@@ -4072,6 +4092,28 @@ textarea.form-control.is-invalid {
 
 .rounded-3xl {
   border-radius: 1.5rem;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-green {
+  --tw-border-opacity: 1;
+  border-color: rgb(191 201 116 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-white {
