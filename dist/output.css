@@ -4224,6 +4224,10 @@ textarea.form-control.is-invalid {
   text-align: center;
 }
 
+.font-body {
+  font-family: Inter, sans-serif;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -4251,6 +4255,11 @@ textarea.form-control.is-invalid {
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(68 68 68 / var(--tw-text-opacity));
 }
 
 .text-brown {

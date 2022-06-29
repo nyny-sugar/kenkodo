@@ -35,6 +35,10 @@ module.exports = {
       white: "#fff",
       beige: "#f8f3ee",
       green: "#bfc974",
+      black: "#444",
+    },
+    fontFamily: {
+      body: ["YuGothic", "Yu Gothic", "sans-serif"],
     },
     extend: {},
     backgroundImage: {
