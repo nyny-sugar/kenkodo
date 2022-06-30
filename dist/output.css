@@ -619,6 +619,18 @@ video {
   left: 33.333333%;
 }
 
+.left-2\/4 {
+  left: 50%;
+}
+
+.left-1\/4 {
+  left: 25%;
+}
+
+.left-2\/3 {
+  left: 66.666667%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
