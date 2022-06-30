@@ -708,10 +708,6 @@ video {
   margin-top: 32px;
 }
 
-.mb-11 {
-  margin-bottom: 120px;
-}
-
 .mb-1 {
   margin-bottom: 8px;
 }
@@ -945,7 +941,7 @@ video {
 
 .bg-beige {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 243 238 / var(--tw-bg-opacity));
+  background-color: rgb(248 249 241 / var(--tw-bg-opacity));
 }
 
 .bg-yellow {
