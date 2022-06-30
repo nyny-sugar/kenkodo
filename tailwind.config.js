@@ -40,7 +40,22 @@ module.exports = {
     fontFamily: {
       body: ["YuGothic", "Yu Gothic", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        appear: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        disappear: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0 },
+        },
+      },
+      animation: {
+        appear: "appear 5s ease 1 forwards",
+        disappear: "disappear 3s ease 0s 1 forwards",
+      },
+    },
     backgroundImage: {
       "top-bg": "url('../src/img/top.jpg')",
     },
@@ -49,5 +64,5 @@ module.exports = {
       "1/1": "1 / 1",
     },
   },
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [],
 };
