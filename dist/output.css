@@ -615,20 +615,8 @@ video {
   top: 33.333333%;
 }
 
-.left-1\/3 {
-  left: 33.333333%;
-}
-
 .left-2\/4 {
   left: 50%;
-}
-
-.left-1\/4 {
-  left: 25%;
-}
-
-.left-2\/3 {
-  left: 66.666667%;
 }
 
 .mx-auto {
@@ -648,16 +636,28 @@ video {
   margin-top: 200px;
 }
 
-.mb-9 {
-  margin-bottom: 64px;
+.mt-6 {
+  margin-top: 30px;
 }
 
-.mt-11 {
-  margin-top: 120px;
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-10 {
+  margin-bottom: 80px;
+}
+
+.mr-10 {
+  margin-right: 80px;
 }
 
 .mt-2 {
   margin-top: 12px;
+}
+
+.mb-9 {
+  margin-bottom: 64px;
 }
 
 .mr-3 {
@@ -698,42 +698,6 @@ video {
 
 .mt-5 {
   margin-top: 24px;
-}
-
-.mb-11 {
-  margin-bottom: 120px;
-}
-
-.mb-1 {
-  margin-bottom: 8px;
-}
-
-.mt-1 {
-  margin-top: 8px;
-}
-
-.mt-3 {
-  margin-top: 16px;
-}
-
-.mt-4 {
-  margin-top: 20px;
-}
-
-.mt-6 {
-  margin-top: 30px;
-}
-
-.mb-10 {
-  margin-bottom: 80px;
-}
-
-.mr-6 {
-  margin-right: 30px;
-}
-
-.mt-15 {
-  margin-top: 400px;
 }
 
 .block {
@@ -784,16 +748,20 @@ video {
   width: 80px;
 }
 
-.w-3\/4 {
-  width: 75%;
+.w-18 {
+  width: 500px;
 }
 
-.w-14 {
-  width: 200px;
+.w-1 {
+  width: 8px;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-14 {
+  width: 200px;
 }
 
 .w-4\/5 {
@@ -820,24 +788,8 @@ video {
   width: 64px;
 }
 
-.w-8\/12 {
-  width: 66.666667%;
-}
-
-.w-16 {
-  width: 600px;
-}
-
-.w-1 {
-  width: 8px;
-}
-
-.w-18 {
-  width: 500px;
-}
-
-.w-17 {
-  width: 800px;
+.w-19 {
+  width: 700px;
 }
 
 .max-w-7xl {
@@ -932,17 +884,8 @@ video {
   border-radius: 1.5rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
-}
-
-.border-y {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
 }
 
 .border-b-4 {
@@ -951,6 +894,11 @@ video {
 
 .border-t-2 {
   border-top-width: 2px;
+}
+
+.border-yellow {
+  --tw-border-opacity: 1;
+  border-color: rgb(223 182 59 / var(--tw-border-opacity));
 }
 
 .border-green {
@@ -963,19 +911,9 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.border-yellow {
-  --tw-border-opacity: 1;
-  border-color: rgb(223 182 59 / var(--tw-border-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-yellow {
-  --tw-bg-opacity: 1;
-  background-color: rgb(223 182 59 / var(--tw-bg-opacity));
 }
 
 .bg-beige {
@@ -986,6 +924,11 @@ video {
 .bg-green {
   --tw-bg-opacity: 1;
   background-color: rgb(191 201 116 / var(--tw-bg-opacity));
+}
+
+.bg-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 182 59 / var(--tw-bg-opacity));
 }
 
 .bg-brown {
@@ -1014,8 +957,8 @@ video {
   padding: 20px;
 }
 
-.p-3 {
-  padding: 16px;
+.p-1 {
+  padding: 8px;
 }
 
 .p-8 {
@@ -1024,10 +967,6 @@ video {
 
 .p-2 {
   padding: 12px;
-}
-
-.p-1 {
-  padding: 8px;
 }
 
 .px-4 {
@@ -1111,11 +1050,6 @@ video {
   line-height: 1rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1130,14 +1064,14 @@ video {
   color: rgb(120 99 92 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-yellow {
   --tw-text-opacity: 1;
   color: rgb(223 182 59 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
@@ -1169,28 +1103,9 @@ video {
   transition-duration: 300ms;
 }
 
-.hover\:border-2:hover {
-  border-width: 2px;
-}
-
-.hover\:border-yellow:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(223 182 59 / var(--tw-border-opacity));
-}
-
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-yellow:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(223 182 59 / var(--tw-bg-opacity));
-}
-
-.hover\:text-yellow:hover {
-  --tw-text-opacity: 1;
-  color: rgb(223 182 59 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -1200,10 +1115,6 @@ video {
 
 .hover\:opacity-30:hover {
   opacity: 0.3;
-}
-
-.hover\:opacity-5:hover {
-  opacity: 0.05;
 }
 
 .hover\:opacity-75:hover {
