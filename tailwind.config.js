@@ -29,6 +29,7 @@ module.exports = {
       17: "800px",
       18: "500px",
       19: "700px",
+      20: "160px",
     },
     colors: {
       brown: "#78635c",
