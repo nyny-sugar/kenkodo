@@ -956,7 +956,7 @@ video {
 
 .bg-brown {
   --tw-bg-opacity: 1;
-  background-color: rgb(120 99 92 / var(--tw-bg-opacity));
+  background-color: rgb(107 108 107 / var(--tw-bg-opacity));
 }
 
 .bg-top-bg {
@@ -1085,7 +1085,7 @@ video {
 
 .text-brown {
   --tw-text-opacity: 1;
-  color: rgb(120 99 92 / var(--tw-text-opacity));
+  color: rgb(107 108 107 / var(--tw-text-opacity));
 }
 
 .text-white {

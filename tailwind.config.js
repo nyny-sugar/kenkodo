@@ -32,7 +32,7 @@ module.exports = {
       20: "300px",
     },
     colors: {
-      brown: "#78635c",
+      brown: "#6b6c6b",
       yellow: "#dfb63b",
       white: "#fff",
       beige: "#f8f9f1",
