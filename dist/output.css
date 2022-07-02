@@ -1139,6 +1139,10 @@ video {
 }
 
 @media (min-width: 976px) {
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:w-17 {
     width: 800px;
   }
