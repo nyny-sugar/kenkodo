@@ -736,6 +736,10 @@ video {
   margin-right: 32px;
 }
 
+.ml-15 {
+  margin-left: 400px;
+}
+
 .block {
   display: block;
 }
@@ -1143,6 +1147,10 @@ video {
 @media (min-width: 1440px) {
   .xl\:flex {
     display: flex;
+  }
+
+  .xl\:w-2\/4 {
+    width: 50%;
   }
 
   .xl\:justify-center {
