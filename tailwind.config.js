@@ -38,6 +38,7 @@ module.exports = {
       beige: "#f8f9f1",
       green: "#bfc974",
       black: "#444",
+      black_h: "#212020",
     },
     fontFamily: {
       body: ["YuGothic", "Yu Gothic", "sans-serif"],
