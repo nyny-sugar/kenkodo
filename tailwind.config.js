@@ -28,15 +28,37 @@ module.exports = {
       16: "600px",
       17: "800px",
       18: "500px",
+      19: "700px",
+      20: "300px",
     },
     colors: {
-      brown: "#78635c",
+      brown: "#6b6c6b",
       yellow: "#dfb63b",
       white: "#fff",
-      beige: "#f8f3ee",
+      beige: "#f8f9f1",
       green: "#bfc974",
+      black: "#444",
+      black_h: "#212020",
     },
-    extend: {},
+    fontFamily: {
+      body: ["YuGothic", "Yu Gothic", "sans-serif"],
+    },
+    extend: {
+      keyframes: {
+        appear: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        disappear: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0 },
+        },
+      },
+      animation: {
+        appear: "appear 5s ease 1 forwards",
+        disappear: "disappear 3s ease 0s 1 forwards",
+      },
+    },
     backgroundImage: {
       "top-bg": "url('../src/img/top.jpg')",
     },
@@ -45,5 +67,5 @@ module.exports = {
       "1/1": "1 / 1",
     },
   },
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [],
 };
