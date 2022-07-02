@@ -1113,6 +1113,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:h-14 {
     height: 200px;
   }
@@ -1123,6 +1127,10 @@ video {
 
   .md\:w-14 {
     width: 200px;
+  }
+
+  .md\:max-w-none {
+    max-width: none;
   }
 }
 
@@ -1135,5 +1143,9 @@ video {
 @media (min-width: 1440px) {
   .xl\:flex {
     display: flex;
+  }
+
+  .xl\:justify-center {
+    justify-content: center;
   }
 }
