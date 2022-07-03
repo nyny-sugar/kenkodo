@@ -10,12 +10,7 @@ module.exports = {
       md: "768px",
       lg: "976px",
       xl: "1440px",
-    },
-    container: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1280px",
+      "2xl": "1920px",
     },
     spacing: {
       1: "8px",
@@ -74,5 +69,28 @@ module.exports = {
       "1/1": "1 / 1",
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        ".container": {
+          maxWidth: "90%",
+          "@screen sm": {
+            maxWidth: "600px",
+          },
+          "@screen md": {
+            maxWidth: "700px",
+          },
+          "@screen lg": {
+            maxWidth: "900px",
+          },
+          "@screen xl": {
+            maxWidth: "1200px",
+          },
+          "@screen 2xl": {
+            maxWidth: "1440px",
+          },
+        },
+      });
+    },
+  ],
 };
