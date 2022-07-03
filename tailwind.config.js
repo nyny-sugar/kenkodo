@@ -11,6 +11,12 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
+    container: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1280px",
+    },
     spacing: {
       1: "8px",
       2: "12px",
@@ -23,6 +29,7 @@ module.exports = {
       9: "64px",
       10: "80px",
       11: "120px",
+      12: "140px",
       14: "200px",
       15: "400px",
       16: "600px",
