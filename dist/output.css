@@ -1132,6 +1132,10 @@ video {
     top: 300px;
   }
 
+  .lg\:left-1\/2 {
+    left: 50%;
+  }
+
   .lg\:mr-7 {
     margin-right: 32px;
   }
@@ -1180,6 +1184,10 @@ video {
     left: 50%;
   }
 
+  .xl\:top-1\/2 {
+    top: 50%;
+  }
+
   .xl\:mx-1 {
     margin-left: 8px;
     margin-right: 8px;
@@ -1211,6 +1219,11 @@ video {
 
   .xl\:text-6xl {
     font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 }
