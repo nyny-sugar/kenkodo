@@ -1243,6 +1243,10 @@ video {
     margin-right: 8px;
   }
 
+  .xl\:mt-1 {
+    margin-top: 8px;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -1270,5 +1274,27 @@ video {
   .xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32xl\:mt-1 {
+    margin-top: 8px;
+  }
+
+  .\32xl\:w-18 {
+    width: 500px;
+  }
+
+  .\32xl\:w-17 {
+    width: 800px;
+  }
+
+  .\32xl\:w-16 {
+    width: 600px;
+  }
+
+  .\32xl\:w-full {
+    width: 100%;
   }
 }
