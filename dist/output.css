@@ -1240,6 +1240,10 @@ video {
     height: 200px;
   }
 
+  .md\:h-8 {
+    height: 48px;
+  }
+
   .md\:w-7 {
     width: 32px;
   }
@@ -1258,6 +1262,10 @@ video {
 
   .md\:w-15 {
     width: 400px;
+  }
+
+  .md\:w-8 {
+    width: 48px;
   }
 
   .md\:px-6 {
