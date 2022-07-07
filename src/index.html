@@ -15,7 +15,7 @@
     <title>広島健康堂</title>
   </head>
   <body class="font-body text-black">
-    <header class="bg-white fixed z-50 min-w-full">
+    <header class="bg-white sticky top-0 z-50">
       <div
         class="flex justify-between container mx-auto items-center py-2 sm:px-2 md:px-6"
       >
@@ -24,7 +24,7 @@
             ><img
               src="img/headerlogo_kenkodo.png"
               alt="健康堂"
-              class="sm:w-6 sm:h-6 md:w-7 md:h-7 lg:w-9 lg:h-9"
+              class="sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-9 lg:h-9"
           /></a>
         </h1>
         <div>
@@ -32,21 +32,21 @@
             <li>
               <a
                 href="#"
-                class="block px-3 hover:opacity-70 sm:text-xs lg:text-xl"
+                class="block px-3 hover:opacity-70 sm:text-xs md:text-xl lg:text-xl"
                 >当院について</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="block px-3 hover:opacity-70 sm:text-xs lg:text-xl"
+                class="block px-3 hover:opacity-70 sm:text-xs md:text-xl lg:text-xl"
                 >施術内容</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="block px-3 hover:opacity-70 sm:text-xs lg:text-xl"
+                class="block px-3 hover:opacity-70 sm:text-xs md:text-xl lg:text-xl"
                 >よくある質問</a
               >
             </li>
@@ -71,8 +71,8 @@
       <div
         class="container mx-auto mt-14 px-4 xl:flex justify-between flex-row-reverse"
       >
-        <div class="flex justify-center">
-          <div class="mr-10 mt-6">
+        <div class="flex justify-center container mx-auto">
+          <div class="sm:mr-8 md:mr-10 mt-6">
             <img
               src="img/about__des.png"
               alt="広島健康堂は、がんばるあなたがちょっと疲れたときに立ち寄れる癒しの空間です。"
@@ -87,7 +87,7 @@
             <img
               src="img/about.jpg"
               alt="暗闇の中のお灸"
-              class="rounded-md w-15 shadow-2xl hover:opacity-75 text-center mt-10 mx-auto md:w-16 lg:w-17 xl:mt-none xl:w-16 xl:mt-1 2xl:w-17"
+              class="rounded-md w-15 shadow-2xl hover:opacity-75 text-center mt-10 mx-auto md:w-16 lg:w-17 xl:mt-0 xl:w-17"
             />
           </a>
         </div>
@@ -116,42 +116,52 @@
           </div>
         </div>
       </div>
-      <div class="mt-14 text-center pb-11 px-4">
-        <h2 class="text-3xl font-bold w-3/4 mx-auto">
-          こんなことでお困りではないですか
-        </h2>
-        <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
-        <p class="mb-10">
-          お悩みをもつ方にお灸治療とセルフケアお灸をご提案いたします。
-        </p>
-        <div class="">
-          <div class="flex justify-center">
+      <div class="mt-14 text-center pb-11">
+        <div class="px-4 container mx-auto">
+          <h2 class="text-3xl font-bold w-3/4 mx-auto">
+            こんなことでお困りではないですか
+          </h2>
+          <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
+          <p class="mb-10">
+            お悩みをもつ方にお灸治療とセルフケアお灸をご提案いたします。
+          </p>
+        </div>
+        <div>
+          <div class="flex justify-center px-2">
             <div
-              class="flex justify-center items-center bg-yellow rounded-full w-12 h-12 relative left-5 z-0 md:w-14 md:h-14 text-xl"
+              class="flex justify-center items-center bg-yellow rounded-full relative left-5 z-0 sm:w-11 sm:h-11 md:w-14 md:h-14 text-xl"
             >
-              <p class="text-white font-bold">肩が凝る</p>
+              <p class="text-white font-bold sm:text-sm md:text-xl">肩が凝る</p>
             </div>
             <div
-              class="flex justify-center items-center bg-green rounded-full w-12 h-12 z-10 md:w-14 md:h-14 text-xl"
+              class="flex justify-center items-center bg-green rounded-full w-12 h-12 z-10 sm:w-11 sm:h-11 md:w-14 md:h-14 text-xl"
             >
-              <p class="text-white font-bold">ねむれない</p>
+              <p class="text-white font-bold sm:text-sm md:text-xl">
+                ねむれない
+              </p>
             </div>
             <div
-              class="flex justify-center items-center bg-yellow rounded-full w-12 h-12 relative -left-5 z-20 md:w-14 md:h-14 text-xl"
+              class="flex justify-center items-center bg-yellow rounded-full w-12 h-12 relative -left-5 z-20 sm:w-11 sm:h-11 md:w-14 md:h-14 text-xl"
             >
-              <p class="text-white font-bold">お腹や手足が<br />冷える</p>
+              <p class="text-white font-bold sm:text-sm md:text-xl">
+                お腹や手足が<br />冷える
+              </p>
             </div>
           </div>
           <div class="flex justify-center mt-5">
             <div
-              class="flex justify-center items-center bg-green rounded-full w-12 h-12 z-30 relative left-2 md:w-14 md:h-14 text-xl"
+              class="flex justify-center items-center bg-green rounded-full w-12 h-12 z-30 relative left-2 sm:w-11 sm:h-11 md:w-14 md:h-14"
             >
-              <p class="text-white font-bold">生理痛が<br />強い</p>
+              <p class="text-white font-bold sm:text-sm md:text-xl">
+                生理痛が<br />強い
+              </p>
             </div>
             <div
-              class="flex justify-center items-center bg-yellow rounded-full w-12 h-12 relative -left-2 z-40 md:w-14 md:h-14 text-xl"
+              class="flex justify-center items-center bg-yellow rounded-full w-12 h-12 relative -left-2 z-40 sm:w-11 sm:h-11 md:w-14 md:h-14"
             >
-              <p class="text-white font-bold">お腹を<br />壊しやすい</p>
+              <p class="text-white font-bold sm:text-sm md:text-xl">
+                お腹を<br />壊しやすい
+              </p>
             </div>
           </div>
         </div>
@@ -161,21 +171,27 @@
           <h2 class="text-3xl font-bold">お灸の効果</h2>
           <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-white"></div>
           <div class="xl:flex justify-between gap-x-7">
-            <div class="bg-white w-15 p-8 rounded-3xl shadow-xl mb-7 mx-auto">
+            <div
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+            >
               <h3 class="mb-7 text-2xl font-bold">免疫力がアップ</h3>
               <img src="img/kouka1.png" alt="運動している女性" />
               <p class="mt-7 text-left">
                 体に温熱刺激を与えることで、皮膚の下にある筋肉や血管、リンパ節が刺激されます。<br />細胞が活性化され免疫作用がアップするほか、リンパの流れが改善されるため、むくみの解消にもつながります。
               </p>
             </div>
-            <div class="bg-white w-15 p-8 rounded-3xl shadow-xl mb-7 mx-auto">
+            <div
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+            >
               <h3 class="mb-7 text-2xl font-bold">体のさまざまな症状の改善</h3>
               <img src="img/kouka2.png" alt="寝ている女性" />
               <p class="mt-7 text-left">
                 ツボを刺激することによって、冷え性や肩こり、腰痛、目の疲れ、むくみ、ストレス、不眠などといった体のさまざまな症状の改善が期待できます。
               </p>
             </div>
-            <div class="bg-white w-15 p-8 rounded-3xl shadow-xl mb-7 mx-auto">
+            <div
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+            >
               <h3 class="mb-7 text-2xl font-bold">鎮痛・リラックス効果</h3>
               <img src="img/kouka3.png" alt="ストレッチしている女性" />
               <p class="mt-7 text-left">
@@ -189,7 +205,9 @@
         <h2 class="text-3xl font-bold">セルフケアお灸</h2>
         <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
         <p class="mb-9">このような方にはセルフケアお灸をご提案いたします。</p>
-        <div class="md:flex justify-between items-center xl:justify-center">
+        <div
+          class="container mx-auto md:flex justify-between items-center xl:justify-center"
+        >
           <div>
             <div class="flex items-center">
               <img src="img/mox__icon.png" alt="お灸" class="w-10" />
@@ -207,7 +225,6 @@
           <img
             src="img/selfcare.png"
             alt="カレンダーを見てがっかりしている女性"
-            class="mx-auto xl:mx-1"
           />
         </div>
       </div>
@@ -237,11 +254,16 @@
               </dd>
             </div>
           </dl>
-          <div class="mt-10">
+          <div class="mt-10 xl:mt-0">
             <img
               src="img/selfmoxibustion02.jpg"
               alt="手にお灸"
-              class="rounded-md w-15 mx-auto md:w-16 xl:w-18 2xl:w-16"
+              class="rounded-md w-15 mx-auto md:w-16 xl:w-15"
+            />
+            <img
+              src="img/selfmoxibustion.jpg"
+              alt="足にお灸"
+              class="rounded-md sm:invisible w-15 mx-auto md:w-16 xl:visible xl:mt-10 xl:w-15"
             />
           </div>
         </div>
@@ -252,7 +274,7 @@
           <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
           <div class="lg:flex justify-between">
             <div
-              class="bg-white w-15 py-8 px-7 rounded-3xl mx-auto mb-7 xl:w-18"
+              class="bg-white py-8 px-7 rounded-3xl mx-auto mb-7 md:w-18 lg:w-15 xl:w-18"
             >
               <h3 class="text-2xl font-bold mb-7">合谷(ごうこく)</h3>
               <p class="mb-7 w-11/12 mx-auto text-left">
@@ -270,7 +292,7 @@
               </p>
             </div>
             <div
-              class="bg-white w-15 py-8 px-7 rounded-3xl mx-auto mb-7 xl:w-18"
+              class="bg-white py-8 px-7 rounded-3xl mx-auto mb-7 md:w-18 lg:w-15 xl:w-18"
             >
               <h3 class="text-2xl font-bold mb-7">三陰交(さんいんこう)</h3>
               <p class="mb-7 w-11/12 mx-auto text-left">
@@ -310,15 +332,17 @@
               </p>
               <p class="mb-2 text-2xl text-left">082-000-0000</p>
               <p class="mb-2 text-left">休業日：不定休</p>
-              <p class="text-left">※施術中は電話に出られないこともございます</p>
+              <p class="text-left sm:text-sm">
+                ※施術中は電話に出られないこともございます
+              </p>
               <div class="mt-6 mb-8 lg:flex">
                 <p
-                  class="font-bold py-2 px-9 bg-white text-brown rounded-md shadow-xl w-15 mb-2 lg:mr-7 lg:mb-7 mt-2 lg:w-20"
+                  class="font-bold py-2 px-9 bg-white text-brown rounded-md shadow-xl sm:w-20 md:w-15 mb-2 lg:mr-7 lg:mb-7 mt-2 lg:w-20 xl:mr-5"
                 >
                   <a href="#">ご予約はこちら</a>
                 </p>
                 <p
-                  class="font-bold py-2 px-9 bg-white text-brown rounded-md shadow-xl mt-2 w-15 lg:mt-none lg:mb-7 lg:w-20"
+                  class="font-bold py-2 px-9 bg-white text-brown rounded-md shadow-xl mt-2 sm:w-20 md:w-15 lg:mt-none lg:mb-7 lg:w-20"
                 >
                   <a href="#">お問い合わせはこちら</a>
                 </p>
@@ -327,15 +351,23 @@
             <img
               src="img/map.jpg"
               alt="地図"
-              class="w-full xl:w-18 object-cover 2xl:w-16"
+              class="w-full xl:w-18 object-cover"
             />
           </div>
           <div class="mt-8 py-7 border-t-2 border-white">
             <ul class="flex justify-center">
-              <li class="mr-7"><a href="index.html">トップ</a></li>
-              <li class="mr-7"><a href="#">当院について</a></li>
-              <li class="mr-7"><a href="#">施術内容</a></li>
-              <li class="mr-7"><a href="#">よくある質問</a></li>
+              <li class="mr-3 sm:text-xs md:text-xl">
+                <a href="index.html">トップ</a>
+              </li>
+              <li class="mr-3 sm:text-xs md:text-xl">
+                <a href="#">当院について</a>
+              </li>
+              <li class="mr-3 sm:text-xs md:text-xl">
+                <a href="#">施術内容</a>
+              </li>
+              <li class="mr-3 sm:text-xs md:text-xl">
+                <a href="#">よくある質問</a>
+              </li>
             </ul>
           </div>
           <p class="mt-5 text-xs">心と体にやさしい 広島健康堂</p>

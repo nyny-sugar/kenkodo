@@ -13,6 +13,7 @@ module.exports = {
       "2xl": "1920px",
     },
     spacing: {
+      0: "0",
       1: "8px",
       2: "12px",
       3: "16px",
@@ -70,27 +71,27 @@ module.exports = {
     },
   },
   plugins: [
-    // function ({ addComponents }) {
-    //   addComponents({
-    //     ".container": {
-    //       maxWidth: "90%",
-    //       "@screen sm": {
-    //         maxWidth: "375px",
-    //       },
-    //       "@screen md": {
-    //         maxWidth: "768px",
-    //       },
-    //       "@screen lg": {
-    //         maxWidth: "976px",
-    //       },
-    //       "@screen xl": {
-    //         maxWidth: "1440px",
-    //       },
-    //       "@screen 2xl": {
-    //         maxWidth: "1920px",
-    //       },
-    //     },
-    //   });
-    // },
+    function ({ addComponents }) {
+      addComponents({
+        ".container": {
+          maxWidth: "90%",
+          "@screen sm": {
+            maxWidth: "360px",
+          },
+          "@screen md": {
+            maxWidth: "700px",
+          },
+          "@screen lg": {
+            maxWidth: "900px",
+          },
+          "@screen xl": {
+            maxWidth: "1200px",
+          },
+          "@screen 2xl": {
+            maxWidth: "1200px",
+          },
+        },
+      });
+    },
   ],
 };
