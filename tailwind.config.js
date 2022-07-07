@@ -5,13 +5,13 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
-      "2xl": "1920px",
-    },
+    // screens: {
+    //   sm: "375px",
+    //   md: "768px",
+    //   lg: "976px",
+    //   xl: "1440px",
+    //   "2xl": "1920px",
+    // },
     spacing: {
       1: "8px",
       2: "12px",
@@ -75,19 +75,19 @@ module.exports = {
         ".container": {
           maxWidth: "90%",
           "@screen sm": {
-            maxWidth: "600px",
+            maxWidth: "375px",
           },
           "@screen md": {
-            maxWidth: "700px",
+            maxWidth: "768px",
           },
           "@screen lg": {
-            maxWidth: "900px",
+            maxWidth: "976px",
           },
           "@screen xl": {
-            maxWidth: "1200px",
+            maxWidth: "1440px",
           },
           "@screen 2xl": {
-            maxWidth: "1440px",
+            maxWidth: "1920px",
           },
         },
       });
