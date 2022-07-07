@@ -1325,6 +1325,10 @@ video {
     width: 300px;
   }
 
+  .lg\:w-15 {
+    width: 400px;
+  }
+
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
