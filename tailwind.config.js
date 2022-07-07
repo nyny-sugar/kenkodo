@@ -5,13 +5,13 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    // screens: {
-    //   sm: "375px",
-    //   md: "768px",
-    //   lg: "976px",
-    //   xl: "1440px",
-    //   "2xl": "1920px",
-    // },
+    screens: {
+      sm: "375px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+      "2xl": "1920px",
+    },
     spacing: {
       1: "8px",
       2: "12px",
@@ -70,27 +70,27 @@ module.exports = {
     },
   },
   plugins: [
-    function ({ addComponents }) {
-      addComponents({
-        ".container": {
-          maxWidth: "90%",
-          "@screen sm": {
-            maxWidth: "375px",
-          },
-          "@screen md": {
-            maxWidth: "768px",
-          },
-          "@screen lg": {
-            maxWidth: "976px",
-          },
-          "@screen xl": {
-            maxWidth: "1440px",
-          },
-          "@screen 2xl": {
-            maxWidth: "1920px",
-          },
-        },
-      });
-    },
+    // function ({ addComponents }) {
+    //   addComponents({
+    //     ".container": {
+    //       maxWidth: "90%",
+    //       "@screen sm": {
+    //         maxWidth: "375px",
+    //       },
+    //       "@screen md": {
+    //         maxWidth: "768px",
+    //       },
+    //       "@screen lg": {
+    //         maxWidth: "976px",
+    //       },
+    //       "@screen xl": {
+    //         maxWidth: "1440px",
+    //       },
+    //       "@screen 2xl": {
+    //         maxWidth: "1920px",
+    //       },
+    //     },
+    //   });
+    // },
   ],
 };
