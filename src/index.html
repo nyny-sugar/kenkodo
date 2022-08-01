@@ -13,8 +13,9 @@
     />
     <link rel="stylesheet" href="/dist/output.css" />
     <title>広島健康堂</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
-  <body class="font-body text-black">
+  <body class="font-body text-black sm:text-sm md:text-base">
     <header class="bg-white sticky top-0 z-50">
       <div
         class="flex justify-between container mx-auto items-center py-2 sm:px-2 md:px-6"
@@ -94,7 +95,7 @@
       </div>
       <div class="bg-beige mt-14">
         <div class="text-center py-11 px-4 container mx-auto">
-          <h2 class="text-3xl font-bold">お灸について</h2>
+          <h2 class="font-bold sm:text-2xl md:text-3xl">お灸について</h2>
           <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
           <p class="mb-9">
             お灸は一般的にモグサを皮膚の上(ツボ)に置いて燃やし、その温熱刺激によって体調を整える治療技術です。<br />
@@ -118,7 +119,7 @@
       </div>
       <div class="mt-14 text-center pb-11">
         <div class="px-4 container mx-auto">
-          <h2 class="text-3xl font-bold w-3/4 mx-auto">
+          <h2 class="font-bold w-3/4 mx-auto sm:text-2xl md:text-3xl">
             こんなことでお困りではないですか
           </h2>
           <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
@@ -126,7 +127,7 @@
             お悩みをもつ方にお灸治療とセルフケアお灸をご提案いたします。
           </p>
         </div>
-        <div>
+        <div class="appear">
           <div class="flex justify-center px-2">
             <div
               class="flex justify-center items-center bg-yellow rounded-full relative left-5 z-0 sm:w-11 sm:h-11 md:w-14 md:h-14 text-xl"
@@ -168,31 +169,37 @@
       </div>
       <div class="bg-green mt-10">
         <div class="py-11 px-4 container mx-auto text-center">
-          <h2 class="text-3xl font-bold">お灸の効果</h2>
+          <h2 class="font-bold sm:text-2xl md:text-3xl">お灸の効果</h2>
           <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-white"></div>
           <div class="xl:flex justify-between gap-x-7">
             <div
-              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18 upIn"
             >
-              <h3 class="mb-7 text-2xl font-bold">免疫力がアップ</h3>
+              <h3 class="mb-7 font-bold sm:text-xl md: text-2xl">
+                免疫力がアップ
+              </h3>
               <img src="img/kouka1.png" alt="運動している女性" />
               <p class="mt-7 text-left">
                 体に温熱刺激を与えることで、皮膚の下にある筋肉や血管、リンパ節が刺激されます。<br />細胞が活性化され免疫作用がアップするほか、リンパの流れが改善されるため、むくみの解消にもつながります。
               </p>
             </div>
             <div
-              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18 upIn"
             >
-              <h3 class="mb-7 text-2xl font-bold">さまざまな症状の改善</h3>
+              <h3 class="mb-7 font-bold sm:text-xl md: text-2xl">
+                さまざまな症状の改善
+              </h3>
               <img src="img/kouka2.png" alt="寝ている女性" />
               <p class="mt-7 text-left">
                 ツボを刺激することによって、冷え性や肩こり、腰痛、目の疲れ、むくみ、ストレス、不眠などといった体のさまざまな症状の改善が期待できます。
               </p>
             </div>
             <div
-              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18 upIn"
             >
-              <h3 class="mb-7 text-2xl font-bold">鎮痛・リラックス効果</h3>
+              <h3 class="mb-7 font-bold sm:text-xl md: text-2xl">
+                鎮痛・リラックス効果
+              </h3>
               <img src="img/kouka3.png" alt="ストレッチしている女性" />
               <p class="mt-7 text-left">
                 もぐさの有効成分「シネオール」が強力な消毒・殺菌・鎮静・鎮痛作用などがあります。この成分が皮膚の表面から内部に浸透していき、痛みを和らげるなどの効果が期待できます。
@@ -202,7 +209,7 @@
         </div>
       </div>
       <div class="text-center py-11 px-4 mt-10 container mx-auto">
-        <h2 class="text-3xl font-bold">セルフケアお灸</h2>
+        <h2 class="font-bold sm:text-2xl md:text-3xl">セルフケアお灸</h2>
         <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
         <p class="mb-9">このような方にはセルフケアお灸をご提案いたします。</p>
         <div
@@ -211,15 +218,15 @@
           <div>
             <div class="flex items-center">
               <img src="img/mox__icon.png" alt="お灸" class="w-10" />
-              <p class="text-xl">お灸をして癒されたい方</p>
+              <p class="md:text-xl">お灸をして癒されたい方</p>
             </div>
             <div class="flex items-center">
               <img src="img/mox__icon.png" alt="お灸" class="w-10" />
-              <p class="text-xl">お仕事が忙しく通えない方</p>
+              <p class="md:text-xl">お仕事が忙しく通えない方</p>
             </div>
             <div class="flex items-center">
               <img src="img/mox__icon.png" alt="お灸" class="w-10" />
-              <p class="text-xl">遠方よりお越しの方</p>
+              <p class="md:text-xl">遠方よりお越しの方</p>
             </div>
           </div>
           <img
@@ -229,26 +236,32 @@
         </div>
       </div>
       <div class="text-center py-11 px-4 container mx-auto">
-        <h2 class="text-3xl font-bold">セルフケアお灸手順</h2>
+        <h2 class="font-bold sm:text-2xl md:text-3xl">セルフケアお灸手順</h2>
         <div class="border-b-4 w-10 mx-auto mt-2 mb-10 border-green"></div>
         <div class="xl:flex justify-between">
           <dl class="text-left xl:w-2/4">
             <div class="bg-beige py-6 px-4 mb-1 rounded-md">
-              <dt class="text-2xl font-bold mb-3">1.ツボの確認</dt>
+              <dt class="font-bold mb-3 sm:text-xl md: text-2xl">
+                1.ツボの確認
+              </dt>
               <dd>
                 ツボの確認は、押してズーンやズキっと痛みや重苦しい感覚を確認することです。押して痛みがないところはお灸する必要はありません。
               </dd>
             </div>
             <img src="img/arrow.png" alt="矢印" class="w-8 mb-1 mx-auto" />
             <div class="bg-beige py-6 px-4 mb-1 rounded-md">
-              <dt class="text-2xl font-bold mb-3">2.お灸に火をつける</dt>
+              <dt class="font-bold mb-3 sm:text-xl md: text-2xl">
+                2.お灸に火をつける
+              </dt>
               <dd>
                 安全性を考慮して、直接患部に置いてからお灸に火をつけるのではなく、合谷付近で一度点火をして置きたいツボに移動させましょう。
               </dd>
             </div>
             <img src="img/arrow.png" alt="矢印" class="w-8 mb-1 mx-auto" />
             <div class="bg-beige py-6 px-4 mb-1 rounded-md">
-              <dt class="text-2xl font-bold mb-3">3.お灸を患部にのせる</dt>
+              <dt class="font-bold mb-3 sm:text-xl md: text-2xl">
+                3.お灸を患部にのせる
+              </dt>
               <dd>
                 台座灸は初めに煙が発生しますが、60〜90秒ほど続き、次第に熱さが弱まってきます。5分くらい経つと台座横の部分をさわっても熱くなるため指でつまんで灰皿に捨てます。
               </dd>
@@ -270,13 +283,15 @@
       </div>
       <div class="bg-beige mt-10">
         <div class="text-center py-11 px-4 container mx-auto">
-          <h2 class="text-3xl font-bold">おすすめのツボ</h2>
+          <h2 class="font-bold sm:text-2xl md:text-3xl">おすすめのツボ</h2>
           <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
-          <div class="lg:flex justify-between">
+          <div class="lg:flex justify-between slideIn">
             <div
               class="bg-white py-8 px-7 rounded-3xl mx-auto mb-7 md:w-18 lg:w-15 xl:w-18"
             >
-              <h3 class="text-2xl font-bold mb-7">合谷(ごうこく)</h3>
+              <h3 class="font-bold mb-7 sm:text-xl md: text-2xl">
+                合谷(ごうこく)
+              </h3>
               <p class="mb-7 w-11/12 mx-auto text-left">
                 親指と人さし指の骨がまじわったところから、やや人さし指よりのへこみが合谷です。
               </p>
@@ -294,7 +309,9 @@
             <div
               class="bg-white py-8 px-7 rounded-3xl mx-auto mb-7 md:w-18 lg:w-15 xl:w-18"
             >
-              <h3 class="text-2xl font-bold mb-7">三陰交(さんいんこう)</h3>
+              <h3 class="font-bold mb-7 sm:text-xl md: text-2xl">
+                三陰交(さんいんこう)
+              </h3>
               <p class="mb-7 w-11/12 mx-auto text-left">
                 内くるぶしの高いところに小指をおき、指幅4本そろえて、人さし指があたっているところが三陰交です。
               </p>
@@ -322,7 +339,9 @@
                   alt="健康堂"
                   class="w-9 h-9 mb-6 mr-4"
                 />
-                <p class="text-3xl font-bold text-white">広島健康堂</p>
+                <p class="font-bold text-white sm:text-2xl md:text-3xl">
+                  広島健康堂
+                </p>
               </div>
               <p class="text-left mb-7">
                 〒730-0012<br />広島県広島市中区上八丁掘8番20号 井上ビル5階
@@ -348,11 +367,16 @@
                 </p>
               </div>
             </div>
-            <img
-              src="img/map.jpg"
-              alt="地図"
-              class="w-full xl:w-18 object-cover"
-            />
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937504!2d2.292292616424874!3d48.85837007928763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2z44Ko44OD44OV44Kn44Or5aGU!5e0!3m2!1sja!2sjp!4v1657792992840!5m2!1sja!2sjp"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="aspect-4/3 sm:w-20 md:w-18"
+              ></iframe>
+            </div>
           </div>
           <div class="mt-8 py-7 border-t-2 border-white">
             <ul class="flex justify-center">
@@ -382,4 +406,38 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="script.js"></script>
   </body>
+  <script>
+    ScrollReveal().reveal(".upIn", {
+      duration: 800,
+      delay: 0.5,
+      origin: "bottom",
+      distance: "200px",
+      viewFactor: 0,
+      reset: true,
+    });
+
+    ScrollReveal().reveal(".appear", {
+      duration: 800,
+      delay: 0.5,
+      "0%": {
+        opacity: 0.3,
+        transform: "translateY(-100px)",
+      },
+      "100%": {
+        opacity: 1,
+        transform: "translateY(0px)",
+      },
+      viewFactor: 0.2,
+      reset: true,
+    });
+
+    ScrollReveal().reveal(".slideIn", {
+      duration: 1600,
+      delay: 0.5,
+      origin: "right",
+      distance: "200px",
+      viewFactor: 0.2,
+      reset: true,
+    });
+  </script>
 </html>
