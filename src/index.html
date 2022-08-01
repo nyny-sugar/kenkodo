@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="/dist/output.css" />
     <title>広島健康堂</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body class="font-body text-black">
     <header class="bg-white sticky top-0 z-50">
@@ -126,7 +127,7 @@
             お悩みをもつ方にお灸治療とセルフケアお灸をご提案いたします。
           </p>
         </div>
-        <div>
+        <div class="appear">
           <div class="flex justify-center px-2">
             <div
               class="flex justify-center items-center bg-yellow rounded-full relative left-5 z-0 sm:w-11 sm:h-11 md:w-14 md:h-14 text-xl"
@@ -172,7 +173,7 @@
           <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-white"></div>
           <div class="xl:flex justify-between gap-x-7">
             <div
-              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18 upIn"
             >
               <h3 class="mb-7 text-2xl font-bold">免疫力がアップ</h3>
               <img src="img/kouka1.png" alt="運動している女性" />
@@ -181,7 +182,7 @@
               </p>
             </div>
             <div
-              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18 upIn"
             >
               <h3 class="mb-7 text-2xl font-bold">さまざまな症状の改善</h3>
               <img src="img/kouka2.png" alt="寝ている女性" />
@@ -190,7 +191,7 @@
               </p>
             </div>
             <div
-              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18"
+              class="bg-white p-8 rounded-3xl shadow-xl mb-7 mx-auto md:w-18 upIn"
             >
               <h3 class="mb-7 text-2xl font-bold">鎮痛・リラックス効果</h3>
               <img src="img/kouka3.png" alt="ストレッチしている女性" />
@@ -272,7 +273,7 @@
         <div class="text-center py-11 px-4 container mx-auto">
           <h2 class="text-3xl font-bold">おすすめのツボ</h2>
           <div class="border-b-4 w-10 mx-auto mt-2 mb-9 border-green"></div>
-          <div class="lg:flex justify-between">
+          <div class="lg:flex justify-between slideIn">
             <div
               class="bg-white py-8 px-7 rounded-3xl mx-auto mb-7 md:w-18 lg:w-15 xl:w-18"
             >
@@ -382,4 +383,35 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="script.js"></script>
   </body>
+  <script>
+    ScrollReveal().reveal(".upIn", {
+      duration: 1600,
+      origin: "bottom",
+      distance: "200px",
+      viewFactor: 0.5,
+      reset: true,
+    });
+
+    ScrollReveal().reveal(".appear", {
+      duration: 1600,
+      "0%": {
+        opacity: 0,
+        transform: "translateY(-100px)",
+      },
+      "100%": {
+        opacity: 1,
+        transform: "translateY(0px)",
+      },
+      viewFactor: 0.5,
+      reset: true,
+    });
+
+    ScrollReveal().reveal(".slideIn", {
+      duration: 800,
+      origin: "right",
+      distance: "200px",
+      viewFactor: 0.5,
+      reset: true,
+    });
+  </script>
 </html>
