@@ -800,6 +800,10 @@ video {
   display: none;
 }
 
+.aspect-4\/3 {
+  aspect-ratio: 4 / 3;
+}
+
 .h-12 {
   height: 140px;
 }
@@ -842,6 +846,10 @@ video {
 
 .w-9 {
   width: 64px;
+}
+
+.w-18 {
+  width: 500px;
 }
 
 .transform {
@@ -928,6 +936,10 @@ video {
 
 .rounded-3xl {
   border-radius: 1.5rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-4 {
@@ -1153,6 +1165,10 @@ video {
     width: 300px;
   }
 
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:px-2 {
     padding-left: 12px;
     padding-right: 12px;
@@ -1301,6 +1317,10 @@ video {
 
   .xl\:flex {
     display: flex;
+  }
+
+  .xl\:h-full {
+    height: 100%;
   }
 
   .xl\:w-17 {
