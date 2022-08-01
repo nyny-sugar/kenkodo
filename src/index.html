@@ -390,32 +390,35 @@
   </body>
   <script>
     ScrollReveal().reveal(".upIn", {
-      duration: 1600,
+      duration: 800,
+      delay: 0.5,
       origin: "bottom",
       distance: "200px",
-      viewFactor: 0.5,
+      viewFactor: 0,
       reset: true,
     });
 
     ScrollReveal().reveal(".appear", {
-      duration: 1600,
+      duration: 800,
+      delay: 0.5,
       "0%": {
-        opacity: 0,
+        opacity: 0.3,
         transform: "translateY(-100px)",
       },
       "100%": {
         opacity: 1,
         transform: "translateY(0px)",
       },
-      viewFactor: 0.5,
+      viewFactor: 0.2,
       reset: true,
     });
 
     ScrollReveal().reveal(".slideIn", {
-      duration: 800,
+      duration: 1600,
+      delay: 0.5,
       origin: "right",
       distance: "200px",
-      viewFactor: 0.5,
+      viewFactor: 0.2,
       reset: true,
     });
   </script>
